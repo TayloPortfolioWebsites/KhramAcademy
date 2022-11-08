@@ -1,0 +1,361 @@
+body{
+  font-family: 'Mulish', sans-serif;
+}
+/*TITLE SECTION*/
+#title{
+  background-image: linear-gradient(#7772FF,#D16EFF);
+}
+.navbar-style{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  background-color: #7772FF;
+  padding-top: 1rem;
+  padding-right: 4rem;
+}
+.fa-icon{
+  padding-right: 5px;
+}
+.brand-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  padding-left: 5%;
+}
+.brand-icon{
+  padding: 5%;
+}
+.links{
+  color: white;
+  margin: 1rem;
+}
+.links-button{
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+.title-description{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+  padding: 35% 0 0 25%;
+}
+.title-subdescription{
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.1rem;
+  color: white;
+  padding-top: 2%;
+  padding-left: 25%;
+}
+.title-button{
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  color: white;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-bottom: 18%;
+}
+.title-image{
+  width: 90%;
+  padding: 25% 0 15% 15%;
+}
+
+/*FEATURES SECTION*/
+#features{
+  padding: 0px 100px;
+}
+.card-one{
+  border-radius: 15px;
+  margin: auto;
+  bottom: 80px;
+}
+.features-row{
+  margin: auto;
+  text-align: left;
+}
+.card-image{
+  float: left;
+  width: 30%;
+}
+.features-header{
+  padding-top: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #4255A4;
+}
+.features-body{
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 1.20rem;
+  color: #6070B2;
+}
+
+/*COURSES SECTION*/
+#courses{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  padding: 0.5% 14%;
+  color: #4255A4;
+  margin: auto;
+}
+.price-heading{
+  text-align: center;
+  margin: 1% 5% 3%;
+}
+.course-one{
+  background-image: url(images/intro-comp-think.jpg);
+  padding: 30%;
+}
+.course-two{
+  background-image: url(images/system-ad.jpg);
+  padding: 30%;
+}
+.course-three{
+  background-image: url(images/comp-net.jpg);
+  padding: 30%;
+}
+.course-four{
+  background-image: url(images/big-data.jpg);
+  padding: 30%;
+}
+.course-five{
+  background-image: url(images/mixed-signals.jpg);
+  padding: 30%;
+}
+.course-six{
+  background-image: url(images/drafting.jpg);
+  padding: 30%;
+}
+.star-style{
+  color: #FFC000;
+}
+.card-body-style, .card-star-style{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  color: grey;
+}
+.carousel-button-left{
+  position: absolute;
+  padding-right: 120px;
+}
+.carousel-button-right{
+  position: absolute;
+  padding-left: 120px;
+}
+
+/*SUBJECTS SECTION*/
+#subjects{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  padding: 5% 14%;
+  margin: auto;
+}
+a{
+  color: white;
+}
+.subjects-heading{
+  color: #4255A4;
+  margin: 5% 0;
+}
+.row-one{
+  margin-bottom: 15px;
+}
+.row-two{
+  margin-bottom: 100px;
+}
+.card-style-subject{
+  background-image: url(images/subjects.jpg);
+}
+a:hover{
+  color: white;
+}
+
+/*ABOUT SECTION*/
+#about{
+  margin-top: 100px;
+}
+.about-header{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #4255A4;
+}
+.about-subheader{
+  padding-bottom: 30px;
+}
+.fa-icon-about{
+  color: #FFC000;
+  padding-right: 8px;
+}
+.about-body{
+  color: #4255A4;
+}
+.about-image{
+  margin-left: 40px;
+  margin-bottom: 120px;
+  width: 550px;
+}
+
+/*TESTIMONIALS-SECTION*/
+#testimonials{
+  padding: 6% 14%;
+  text-align: center;
+}
+.testimonials-header{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  color: #4255A4;
+  margin-bottom: 50px;
+}
+.testimonial-image{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.testimonial-text{
+  color: #6373B4;
+}
+
+/*FOOTER SECTION*/
+#footer{
+  background-color: #4255A4;
+  text-align: center;
+  padding: 3% 14%;
+  color: white;
+}
+.footer-left{
+  text-align: left;
+}
+.footer-header{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.footer-body{
+  padding-right: 20%;
+}
+.foot-icon-left{
+  padding: 10px;
+}
+.foot-text{
+  text-align: left;
+  margin-top: 20px;
+}
+.footer-right{
+  text-align: left;
+}
+.footer-right-header{
+  font-weight: 700;
+}
+.footer-right-body{
+  margin-bottom: 20px;
+}
+
+/*VIEWPORTS*/
+@media (max-width: 1024px) {
+  .title-description{
+    font-size: 50px;
+    padding: 30% 0 0 25%;
+  }
+  .title-image{
+    width: 450px;
+  }
+  .features-row{
+    margin: auto;
+    text-align: center;
+  }
+  .card-image{
+    opacity: 0%;
+    position: absolute;
+  }
+  .card-style-subject{
+    font-size: 90%;
+  }
+  .about-image{
+    margin-top: 5%;
+    width: 70%;
+  }
+  #footer{
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-description{
+    font-size: 3rem;
+    margin-right: 10rem;
+  }
+  .title-subdescription{
+    margin-right: 10rem;
+  }
+  .title-image{
+    position: absolute;
+    opacity: 0%;
+  }
+  .col-style{
+    margin-bottom: 15px;
+  }
+  .row-one{
+    margin-bottom: 0px;
+  }
+  .about-image{
+    margin: 0px 0px 20px 50px;
+  }
+  .section-col{
+    padding: 0px;
+  }
+  .about-header, .about-subheader, .about-body{
+    text-align: center;
+    padding: 2px 90px;
+  }
+  #footer{
+    padding: 3% 3%;
+  }
+  .card-one{
+    bottom: 0px;
+    margin-bottom: 20px;
+  }
+  #title{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  body{
+    padding: 10px;
+  }
+  .title-description, .title-subdescription{
+    padding-left: 30px;
+  }
+  .title-button{
+    margin-left: 30px;
+  }
+  #features{
+    padding: 50px;
+  }
+  .card-one{
+    top: -0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .title-description{
+    font-size: 30px;
+  }
+  #features{
+    padding: 50px;
+  }
+  .about-image{
+    position: relative;
+  }
+  #footer{
+    text-align: center;
+  }
+  .footer-button{
+    width: 150px;
+  }
+}
